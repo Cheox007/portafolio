@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast | Jhonathan Carrillo</title>
+    <meta name="description" content="Podcast episodes by Jhonathan Carrillo on cybersecurity topics, from the dark web to defensive operations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-subpage">
+
+    <header class="site-header" id="siteHeader">
+        <div class="container site-header__inner">
+            <a href="index.html" class="brand" aria-label="Cheox — Jhonathan Carrillo, home">
+                <img src="img/cheox-logo-horizontal.png" alt="Cheox" class="brand__logo">
+            </a>
+            <nav class="nav" id="primaryNav">
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="index.html#experience">Experience</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="index.html#education">Education</a>
+                <a href="events.html">Events</a>
+                <a href="podcast.html" class="is-active">Podcast</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="files/JhonathanCV.pdf" target="_blank" rel="noopener" class="nav__cv">CV &rarr;</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Page intro -->
+        <section class="page-intro">
+            <div class="container">
+                <p class="eyebrow eyebrow--accent reveal">Audio</p>
+                <h1 class="page-intro__title reveal">Podcast</h1>
+                <p class="page-intro__lede reveal">
+                    Conversations and short-form audio essays on cybersecurity:
+                    threat landscape, defensive operations, and the corners of the
+                    internet most people never see.
+                </p>
+                <p class="page-intro__back reveal">
+                    <a href="index.html">&larr; Back to portfolio</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Episodes -->
+        <section class="section section--alt" id="episodes">
+            <div class="container">
+                <p class="eyebrow reveal">Episodes</p>
+                <h2 class="section__title reveal">Listen in</h2>
+
+                <div class="podcast-grid">
+
+                    <article class="episode reveal">
+                        <div class="episode__cover">
+                            <img src="img/darkweb_ep01_ascii.png" alt="Darkweb episode cover" loading="lazy">
+                        </div>
+                        <div class="episode__body">
+                            <p class="episode__date">Episode 02 &middot; Dark Web</p>
+                            <h3 class="episode__title">Darkweb 2</h3>
+                            <p class="episode__desc">
+                                A second look into the dark web: how it actually works under the
+                                hood, what defenders should know about the marketplaces and
+                                forums that live there, and where the real risk lies versus the
+                                noise.
+                            </p>
+                            <audio class="episode__audio" controls preload="metadata">
+                                <source src="files/Podcast%20-%20Darkweb%202.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <p>&copy; 2026 Jhonathan Carrillo</p>
+            <p class="site-footer__meta">
+                Built with HTML, CSS, JavaScript
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
